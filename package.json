@@ -1,12 +1,13 @@
 {
-  "name": "eatlas-template",
+  "name": "tgve",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "eatlas": "^1.1.0-beta.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "react-bootstrap": "^0.32.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +40,5 @@
     "jest-canvas-mock": "^2.3.1",
     "react-scripts": "3.4.4"
   },
-  "homepage": "https://layik.github.io/eatlas-template"
+  "homepage": "https://saferactive.github.io/tgve"
 }
