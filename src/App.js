@@ -4,10 +4,9 @@ import Eatlas from 'eatlas';
 import './App.css';
 import Header from './Header';
 
+import { layers } from './utils';
+
 function App() {
-  const gc = "la_code"
-    , gURL = "https://raw.githubusercontent.com/saferactive/tgve/main/las-only-code.geojson"
-    , dURL = "https://raw.githubusercontent.com/saferactive/tgve/main/ksi.csv";
 
   const eAtlasInstance = (options) => {
     const { dataURL, geoURL, geoColumn } = options;
@@ -18,12 +17,12 @@ function App() {
         defaultURL={dataURL} /> 
     )
   }
+  const [layerIndex, setLayerIndex] = useState(1)
   const map = eAtlasInstance({
-    dataURL: dURL,
-    geoURL: gURL,
-    geoColumn: gc
-  })
-
+    dataURL: layers[layerIndex].dURL,
+    geoURL: layers[layerIndex].gURL,
+    geoColumn: layers[layerIndex].gc
+  })  
   const [component, setComponent] = useState(map);
 
   return (
@@ -42,6 +41,9 @@ function App() {
         }}
         />
       {component}
+      <div className="description mapboxgl-ctrl-bottom-right">
+        {layers[layerIndex].name + ". " + layers[layerIndex].description}
+      </div>
     </>
   );
 }
