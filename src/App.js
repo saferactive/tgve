@@ -5,45 +5,61 @@ import './App.css';
 import Header from './Header';
 
 import { layers } from './utils';
+import Layers from './Layers';
+import About from './About';
 
 function App() {
 
-  const eAtlasInstance = (options) => {
-    const { dataURL, geoURL, geoColumn } = options;
-    return (
-      <Eatlas dark={true}
-        geographyColumn={geoColumn}
-        geographyURL={geoURL}
-        defaultURL={dataURL} /> 
-    )
-  }
-  const [layerIndex, setLayerIndex] = useState(1)
-  const map = eAtlasInstance({
-    dataURL: layers[layerIndex].dURL,
-    geoURL: layers[layerIndex].gURL,
-    geoColumn: layers[layerIndex].gc
-  })  
-  const [component, setComponent] = useState(map);
-
+  const [layerIndex, setLayerIndex] = useState(0)
+  const [tgve, setTgve] = useState(null);
+  const [route, setRoute] = useState(null)
+  useEffect(() => {
+    const tgveInstance = (defaultURL, geographyURL, geographyColumn) => {
+      return (
+        <Eatlas dark={true}
+          key={defaultURL}
+          geographyColumn={geographyColumn}
+          geographyURL={geographyURL}
+          defaultURL={defaultURL}
+          leftSidebarContent={
+            <div>
+              <div>
+                {layers[layerIndex].name + ". " + layers[layerIndex].description}
+              </div>
+              <Layers
+                index={layerIndex + ""}
+                callback={(index) => {
+                  if (index < 0) setLayerIndex(0)
+                  if (index >= layers.length) setLayerIndex(layers.length - 1)
+                  setLayerIndex(index)
+                }} />
+            </div>
+          } />
+      )
+    }
+    // console.log(layerIndex)
+    setTgve(tgveInstance(layers[layerIndex].dURL,
+      layers[layerIndex].gURL,
+      layers[layerIndex].gc
+    ))
+  }, [layerIndex])
+  // console.log(layers[layerIndex].gc)
   return (
     <>
-      <Header dark={true} 
+      <Header dark={true}
         // can we manage without router?
-        switchComponent={(newComponent) => {
-          if(!newComponent) {
+        switchComponent={(newRoute) => {
+          if (!newRoute) {
             // reset
             document.title = "SaferActive"
-            setComponent(map)
+            setRoute(null)
           } else {
             document.title = "SaferActive | About"
-            setComponent(newComponent)
+            setRoute(newRoute)
           }
         }}
-        />
-      {component}
-      <div className="description mapboxgl-ctrl-bottom-right">
-        {layers[layerIndex].name + ". " + layers[layerIndex].description}
-      </div>
+      />
+      {!route ? tgve : <About />}
     </>
   );
 }
