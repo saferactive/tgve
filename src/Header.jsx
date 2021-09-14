@@ -4,7 +4,6 @@
 import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { createBrowserHistory } from 'history'
-import About from './About';
 const history = createBrowserHistory()
 
 const navs = [
@@ -46,7 +45,7 @@ function Header(props) {
                   onClick={() => { 
                     history.push(item.to)
                     typeof switchComponent === 'function' 
-                    && switchComponent(<About />)
+                    && switchComponent('about')
                     }}>
                   {item.title}
                 </NavItem>

@@ -10,3 +10,5 @@ To make the repo self-sustained two datasets have been added in, so if you want 
 Both files are available in the repository's first [release](https://github.com/saferactive/tgve/releases/tag/0.1.0) too.
 
 <img width="100%" alt="ksi on UK LAD geography" src="https://user-images.githubusercontent.com/408568/130941747-afc08dc9-b078-49ea-b2b5-bb38dda02cd8.png">
+
+## notes
