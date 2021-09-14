@@ -1,4 +1,4 @@
-# SaferActive 
+# SaferActive [![Deploy to github pages](https://github.com/saferactive/tgve/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/saferactive/tgve/actions/workflows/gh-pages.yml)
 
 TGVE instance. Visit [GH Pages](https://saferactive.github.io/tgve) to see it.
 
