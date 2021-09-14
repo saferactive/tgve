@@ -1,4 +1,5 @@
-import React, {useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+
 import Eatlas from 'eatlas';
 
 import './App.css';
