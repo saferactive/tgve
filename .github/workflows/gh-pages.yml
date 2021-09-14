@@ -31,9 +31,6 @@ jobs:
           run: yarn run build
           env:
             CI: false
-            REACT_APP_DEFAULT_URL: https://raw.githubusercontent.com/saferactive/tgve/main/ksi.csv
-            REACT_APP_GEOGRAPHY_URL: https://raw.githubusercontent.com/saferactive/tgve/main/las-only-code.geojson
-            REACT_APP_GEOGRAPHY_COLUMN_NAME: la_code
             REACT_APP_MAPBOX_ACCESS_TOKEN: ${{secrets.MAPBOX_KEY}}
 
         - name: Run deploy script
