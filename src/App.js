@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 import Eatlas from 'eatlas';
-
-import './App.css';
 import Header from './Header';
 
 import { layers } from './utils';
 import Layers from './Layers';
 import About from './About';
+import './App.css';
 
 function App() {
 
