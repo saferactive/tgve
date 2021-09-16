@@ -18,6 +18,11 @@ function App() {
       return (
         <Eatlas dark={true}
           key={defaultURL}
+          viewport={{ longitude: 0,
+            latitude: 53,
+            zoom: 5.5,
+            pitch: 0,
+            bearing: 0}}
           geographyColumn={geographyColumn}
           geographyURL={geographyURL}
           defaultURL={defaultURL}
