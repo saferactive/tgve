@@ -1,6 +1,6 @@
 const layers = [
   {
-    name: "Local Authority Distrcit",
+    name: "Local Authority District",
     description: "",
     gc: "la_code",
     gURL: "https://raw.githubusercontent.com/saferactive/tgve/main/las-only-code.geojson",
