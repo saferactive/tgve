@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 import Eatlas from 'eatlas';
-
-import './App.css';
 import Header from './Header';
 
 import { layers } from './utils';
 import Layers from './Layers';
 import About from './About';
+import './App.css';
 
 function App() {
 
@@ -19,6 +18,11 @@ function App() {
       return (
         <Eatlas dark={true}
           key={defaultURL}
+          viewport={{ longitude: 0,
+            latitude: 53,
+            zoom: 5.5,
+            pitch: 0,
+            bearing: 0}}
           geographyColumn={geographyColumn}
           geographyURL={geographyURL}
           defaultURL={defaultURL}
