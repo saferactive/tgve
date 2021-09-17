@@ -18,6 +18,7 @@ function App() {
       return (
         <Eatlas dark={true}
           key={defaultURL}
+          hideChartGenerator={true}
           viewport={{ longitude: 0,
             latitude: 53,
             zoom: 5.5,
@@ -28,9 +29,6 @@ function App() {
           defaultURL={defaultURL}
           leftSidebarContent={
             <div>
-              <div>
-                {layers[layerIndex].name + ". " + layers[layerIndex].description}
-              </div>
               <Layers
                 index={layerIndex + ""}
                 callback={(index) => {

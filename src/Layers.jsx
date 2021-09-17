@@ -20,6 +20,7 @@ const buttons = [];
 layers.forEach((e, i) => {
   buttons.push(
     <Radio
+      description={e.description}
       value={i + ""}>
       {e.name}
     </Radio>
