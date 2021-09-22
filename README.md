@@ -16,6 +16,6 @@ Both sets of datasets are available in the repository's first [release](https://
 
 <img width="100%" alt="ksi on UK LAD geography" src="https://user-images.githubusercontent.com/408568/134366068-ccbb553b-df85-4cfb-afea-e3bbf396d3fd.png">
 
-## notes
+## Notes
 
 It is worth noting that [TGVE](https://github.com/tgve/eAtlas) does not currently turn off the layers that are not suitable for a "zone" geography such as the two sets of data presented. Therefore, the only approapriate layer (which is chosen by TGVE automatically) is the geojson layer. You can find the other layers under the settings tab on the sidebar under the label `Deck Layer`.
