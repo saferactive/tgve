@@ -1,6 +1,6 @@
 # SaferActive [![Deploy to github pages](https://github.com/saferactive/tgve/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/saferactive/tgve/actions/workflows/gh-pages.yml)
 
-This repository is made up of a Create React App (a front end application) which uses Turing Geovisualization Engine (TGVE) to visualize mainly Killed or Seriously Injured analysis outputs from SaferActive. To see the application live, visit [GH Pages](https://saferactive.github.io/tgve) to see it.
+This repository is made up of a Create React App (a front end application) which uses Turing Geovisualization Engine ([TGVE](https://github.com/tgve/eAtlas)) to visualize mainly Killed or Seriously Injured analysis outputs from SaferActive. To see the application live, visit [GH Pages](https://saferactive.github.io/tgve) to see it.
 
 To host the data and make the repo self-sustained two sets of datasets have been added in, so if you want to clone this repo just remember that. These are:
 
@@ -18,4 +18,4 @@ Both sets of datasets are available in the repository's first [release](https://
 
 ## notes
 
-It is worth noting that [TGVE](https://github.com/tgve/eAtlas) is not mature enough to turn off the layers that are not suitable for a "zone" geography such as the two sets of data presented. Therefore, the only approapriate layer (which is chosen by TGVE automatically) is the geojson layer. You can find the other layers under the settings tab on the sidebar under the label `Deck Layer`.
+It is worth noting that [TGVE](https://github.com/tgve/eAtlas) does not currently turn off the layers that are not suitable for a "zone" geography such as the two sets of data presented. Therefore, the only approapriate layer (which is chosen by TGVE automatically) is the geojson layer. You can find the other layers under the settings tab on the sidebar under the label `Deck Layer`.
