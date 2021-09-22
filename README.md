@@ -14,6 +14,6 @@ To host the data and make the repo self-sustained two sets of datasets have been
 
 Both sets of datasets are available in the repository's first [release](https://github.com/saferactive/tgve/releases/tag/0.1.0) too.
 
-<img width="100%" alt="ksi on UK LAD geography" src="https://user-images.githubusercontent.com/408568/130941747-afc08dc9-b078-49ea-b2b5-bb38dda02cd8.png">
+<img width="100%" alt="ksi on UK LAD geography" src="https://user-images.githubusercontent.com/408568/134366068-ccbb553b-df85-4cfb-afea-e3bbf396d3fd.png">
 
 ## notes
