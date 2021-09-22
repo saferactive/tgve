@@ -10,7 +10,7 @@ To host the data and make the repo self-sustained two sets of datasets have been
 
 2. Police Force Level datasets:
 * `ksi-pf.csv` (2.3K) please see SaferActive project for details about this output. 
-* `las-only-code.geojson` (310K) England and Wales' Police Force geographies in `.geojson` format.
+* `pf-only-name.geojson` (310K) England and Wales' Police Force geographies in `.geojson` format.
 
 Both sets of datasets are available in the repository's first [release](https://github.com/saferactive/tgve/releases/tag/0.1.0) too.
 
