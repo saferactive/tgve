@@ -1,4 +1,4 @@
-police_force,mean_risk,diff_risk,diff_cycle,mean_km_cycled,mean_km_percap
+police_force,KSI per Bkm cycled for travel to work (2010-2019),Change in KSI per Bkm cycled,Change in km cycled per capita across the decade (based on resident population),Mean km cycled for travel to work (2010-2019),Mean km cycled per capita (2010-2019) based on resident population
 Metropolitan Police,822.07,-250.9,0.6,427330.67,0.05
 Cumbria,523.59,-80.36,3.75,21837.66,0.04
 Lancashire,1377.32,-255.85,1.53,46953.83,0.03
