@@ -18,6 +18,7 @@ function App() {
       return (
         <Eatlas dark={true}
           key={defaultURL}
+          hideCharts={true}
           hideChartGenerator={true}
           viewport={{ longitude: 0,
             latitude: 53,

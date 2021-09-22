@@ -1,4 +1,4 @@
-lad_name,mean_risk,diff_risk,diff_cycle_wd,diff_cycle,mean_km_cycled,la_code
+Local Authority District name,KSI per Bkm cycled for travel to work (2010-2019),Change in KSI per Bkm cycled,Change in km cycled per capita across the decade (based on 2011 workday population),Change in km cycled per capita across the decade (based on resident population),Mean km cycled for travel to work (2010-2019),la_code
 Cheshire East,924.44,-25.84,0.23,-1.71,15653.94,E06000049
 Central Bedfordshire,687.9,-20.14,3.11,-4.22,5386.37,E06000056
 Newport,647.33,-3.02,2.95,-0.55,3580.49,W06000022
