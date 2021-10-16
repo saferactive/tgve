@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tgve/static/css/main.8fdaef73.chunk.css",
+    "main.js": "/tgve/static/js/main.8d9f1fb4.chunk.js",
+    "main.js.map": "/tgve/static/js/main.8d9f1fb4.chunk.js.map",
+    "runtime-main.js": "/tgve/static/js/runtime-main.351b1f99.js",
+    "runtime-main.js.map": "/tgve/static/js/runtime-main.351b1f99.js.map",
+    "static/css/2.8f07e52e.chunk.css": "/tgve/static/css/2.8f07e52e.chunk.css",
+    "static/js/2.5bad8e09.chunk.js": "/tgve/static/js/2.5bad8e09.chunk.js",
+    "static/js/2.5bad8e09.chunk.js.map": "/tgve/static/js/2.5bad8e09.chunk.js.map",
+    "static/js/3.1b8ab7b8.chunk.js": "/tgve/static/js/3.1b8ab7b8.chunk.js",
+    "static/js/3.1b8ab7b8.chunk.js.map": "/tgve/static/js/3.1b8ab7b8.chunk.js.map",
+    "index.html": "/tgve/index.html",
+    "precache-manifest.c80673c8004c44cca42d3a1a1cd51d96.js": "/tgve/precache-manifest.c80673c8004c44cca42d3a1a1cd51d96.js",
+    "service-worker.js": "/tgve/service-worker.js",
+    "static/css/2.8f07e52e.chunk.css.map": "/tgve/static/css/2.8f07e52e.chunk.css.map",
+    "static/css/main.8fdaef73.chunk.css.map": "/tgve/static/css/main.8fdaef73.chunk.css.map",
+    "static/js/2.5bad8e09.chunk.js.LICENSE.txt": "/tgve/static/js/2.5bad8e09.chunk.js.LICENSE.txt",
+    "static/media/location-icon-atlas.png": "/tgve/static/media/location-icon-atlas.37932833.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.351b1f99.js",
+    "static/css/2.8f07e52e.chunk.css",
+    "static/js/2.5bad8e09.chunk.js",
+    "static/css/main.8fdaef73.chunk.css",
+    "static/js/main.8d9f1fb4.chunk.js"
+  ]
+}
